@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import dts from 'vite-plugin-dts';
@@ -11,6 +12,12 @@ export default defineConfig({
       insertTypesEntry: true,
     }),
   ],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './vitest.setup.ts',
+    css: true,
+  },
   build: {
     lib: {
       entry: resolve(__dirname, 'src/components/index.ts'),

@@ -23,7 +23,8 @@
     "build:lib": "vite build --config vite.config.ts",
     "lint": "eslint .",
     "test": "vitest run",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "npm run build:lib"
   },
   "dependencies": {
     "@seancrosby/half-birthday-calc": "^1.0.1"
