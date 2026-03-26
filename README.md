@@ -1,15 +1,15 @@
 # Crosby UI
 
-A collection of modern, accessible React components used in the Half Birthday Calculator and other projects.
+A collection of modern, accessible React components for building clean, consistent user interfaces.
 
 ## Components
-- **Container:** Main layout wrapper.
-- **Header:** Header with logo and subtitle.
-- **InputGroup:** Form inputs with labels.
-- **ComputeButton:** Action button with styling.
-- **ResultCard:** Animated cards for displaying results.
-- **ResultsList:** Wrapper for multiple result cards with sweep animation.
-- **Footer:** Page footer.
+- **Container:** Main layout wrapper for consistent spacing.
+- **Header:** Header component with logo and subtitle support.
+- **InputGroup:** Form inputs with integrated labels and styling.
+- **ComputeButton:** Customizable action button.
+- **ResultCard:** Animated cards for displaying data and results.
+- **ResultsList:** Wrapper for organizing result cards with smooth animations.
+- **Footer:** Simple, consistent page footer.
 
 ## Tech Stack
 - React (TypeScript)
